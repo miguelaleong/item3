@@ -1,0 +1,87 @@
+/* CSS Document */
+html,body{
+	margin: 0px;
+	font-family: 'Signika', sans-serif;
+}
+.be-grey{
+	background-color: rgba(88,88,90,1.00)
+}
+.green{
+	color: rgba(155,200,61,1.00)
+}
+.large-padding{
+	padding: 40px 10px;
+}
+.be-green{
+	background-color: rgba(155,200,61,1.00)
+}
+.grey{
+	color: rgba(88,88,90,1.00)
+}
+h1{
+	font-size: 40px;
+}
+h2{
+	font-size: 25px;
+}
+
+.textbox
+  {
+  text-align: center;
+  border: 0px;
+  font-size: 18px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  background-color: #9bc83d;
+  color: #f0f0f0;
+  }
+  
+  .textbox:focus
+  {
+  color: #2E3133;
+  border-color: #FBFFAD;
+  }
+  
+  .buttonbox
+  {
+  text-align: center;
+  border: 0px;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 35px;
+  -moz-border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -o-border-radius: 35px;
+  background-color: #9bc83d;
+  background: radial-gradient( #9bc83d,#82ac36);
+  background: -moz-radial-gradient( #9bc83d,#82ac36);
+  background: -webkit-radial-gradient( #9bc83d,#82ac36);
+  background: -o-radial-gradient( #9bc83d,#82ac36);
+  color: #f0f0f0;
+  }
+  
+  .textResultado
+  {
+  text-align: center;
+  border: 0px;
+  font-size: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 35px;
+  -moz-border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -o-border-radius: 35px;
+  background-color: #f7fbee;
+  color: #9bc83d;
+  }
