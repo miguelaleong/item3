@@ -6,6 +6,24 @@ function calcular(valor1,valor2){
 	totalMonto = document.getElementById("totalMonto").value;
 	nuevoTotalMonto = parseInt(totalMonto)+parseInt(valor3);
 	document.getElementById(nombreCampoResultado).value=valor3;
-	document.getElementById("totalBilletes").value=nuevoTotalBilletes;
-	document.getElementById("totalMonto").value=nuevoTotalMonto;
+}
+
+function totalizar(){
+	var montos = [2,5,10,20,50,100,200,500];
+	total=0;
+	totalMonto = 0;
+	for (var i = 7; i >= 0; i--) {
+		cantBillete = parseInt(document.getElementById("valor"+montos[i]).value);
+		totalBilletes = parseInt(totalBilletes) + parseInt(cantBillete);
+		totalMonto += document.getElementById("valor"+montos[i]).value * montos[i];
+		document.getElementById("valor"+montos[i]).value=0;
+		document.getElementById("resultado"+montos[i]).value=0;
+
+	}
+	document.getElementById("totalBilletes").value=totalBilletes;
+	document.getElementById("totalMonto").value=totalMonto;
+}
+
+function aceptar(){
+	alert("Total Billetes " +  document.getElementById("totalBilletes").value + " Y MontoTotal " + document.getElementById("totalMonto").value);
 }
